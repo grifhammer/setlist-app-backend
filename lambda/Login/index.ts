@@ -1,4 +1,3 @@
-import { ScopedAws } from "aws-cdk-lib/lib/core";
 import { APIGatewayProxyHandlerV2 } from "aws-lambda";
 import { stringify } from "querystring";
 interface LoginEnv extends NodeJS.ProcessEnv {
