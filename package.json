@@ -1,10 +1,5 @@
 {
   "name": "setlist-app-serverless-backend",
-  "bin": {
-    "serverless-backend.d.ts": "bin/serverless-backend.d.ts",
-    "serverless-backend.js": "bin/serverless-backend.js",
-    "serverless-backend.ts": "bin/serverless-backend.ts"
-  },
   "scripts": {
     "build": "npx projen build",
     "bundle": "npx projen bundle",
@@ -31,7 +26,7 @@
     "projen": "npx projen"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.20",
+    "@types/jest": "^26.0.24",
     "@types/node": "^12",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
@@ -46,9 +41,9 @@
     "json-schema": "^0.4.0",
     "npm-check-updates": "^12",
     "projen": "^0.52.56",
-    "ts-jest": "^26.5.3",
+    "ts-jest": "^26.5.6",
     "ts-node": "^9",
-    "typescript": "~4.2.3"
+    "typescript": "~4.6.2"
   },
   "dependencies": {
     "aws-cdk-lib": "^2.1.0",
